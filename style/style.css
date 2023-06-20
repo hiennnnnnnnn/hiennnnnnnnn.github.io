@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo&family=Syne:wght@400;500;600;700;800&display=swap');
+
+body{
+	margin: 0px;
+	background: #1A1A1A;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+.text-bold{
+	font-family: 'Syne';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 86px;
+	text-align: center;	
+}
+
+
+.white-text{
+	color: white;
+}
+
+.regular-text{
+	font-family: 'Archivo';
+	font-style: normal;
+	letter-spacing: 1px;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 32px;
+	text-align: center;	
+
+}
+
+.section{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	box-sizing: border-box;
+	padding: 10%;
+}
